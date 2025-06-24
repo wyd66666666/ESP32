@@ -1,0 +1,21 @@
+dependencies:
+  idf:
+    source:
+      type: idf
+    version: 5.3.3
+  ningzixi/ws2812_control:
+    component_hash: dd8913c8a9853a2a40f5516ebbfd8e73dfbaa94924e0b7b2e32f4d427e62250f
+    dependencies:
+    - name: idf
+      require: private
+      version: '>=4.4.7'
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 1.3.0
+direct_dependencies:
+- idf
+- ningzixi/ws2812_control
+manifest_hash: 9b890f5a03a9ad4bc06018685a5fbcd137db7ac5246bddaa793b290d4fe41e3f
+target: esp32s3
+version: 2.0.0
