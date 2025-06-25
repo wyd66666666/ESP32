@@ -151,7 +151,7 @@ void app_main(void)
     ESP_ERROR_CHECK(esp_lcd_panel_invert_color(panel_handle, true));
 
     // Swap x and y axis (Different LCD screens may need different options)
-    ESP_ERROR_CHECK(esp_lcd_panel_swap_xy(panel_handle, true));
+    ESP_ERROR_CHECK(esp_lcd_panel_swap_xy(panel_handle, false));
 
     // Turn on backlight (Different LCD screens may need different levels)
     ESP_ERROR_CHECK(gpio_set_level(EXAMPLE_PIN_NUM_BK_LIGHT, EXAMPLE_LCD_BK_LIGHT_ON_LEVEL));

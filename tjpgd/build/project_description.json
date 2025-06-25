@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "lcd_tjpgd",
-    "project_version":    "9bebfd1",
+    "project_version":    "88a5e19-dirty",
     "project_path":       "F:/code/ESP32/ESP32/tjpgd",
     "idf_path":           "F:/espide/Espressif/frameworks/esp-idf-v5.3.3",
     "build_dir":          "F:/code/ESP32/ESP32/tjpgd/build",
