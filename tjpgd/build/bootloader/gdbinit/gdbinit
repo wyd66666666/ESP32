@@ -1,0 +1,2 @@
+source F:/code/ESP32/ESP32/tjpgd/build/bootloader/gdbinit/symbols
+source F:/code/ESP32/ESP32/tjpgd/build/bootloader/gdbinit/connect
