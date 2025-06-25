@@ -8,7 +8,7 @@
 #include <stdint.h>
 #include "esp_err.h"
 
-#define IMAGE_W 320
+#define IMAGE_W 240
 #define IMAGE_H 240
 
 /**
