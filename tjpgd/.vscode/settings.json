@@ -13,8 +13,8 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=F:\\espide\\Espressif\\tools\\xtensa-esp-elf\\esp-13.2.0_20240530\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
-    "--compile-commands-dir=f:\\code\\ESP32\\ESP32\\tjpgd\\build"
+    "--compile-commands-dir=f:\\code\\ESP32\\tjpgd\\build"
   ],
-  "idf.portWin": "COM4",
-  "idf.flashType": "UART"
+  "idf.flashType": "UART",
+  "idf.portWin": "COM4"
 }

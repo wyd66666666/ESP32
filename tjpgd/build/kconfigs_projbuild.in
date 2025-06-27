@@ -3,4 +3,4 @@ source "F:/espide/Espressif/frameworks/esp-idf-v5.3.3/components/esp_app_format/
 source "F:/espide/Espressif/frameworks/esp-idf-v5.3.3/components/esp_rom/Kconfig.projbuild"
 source "F:/espide/Espressif/frameworks/esp-idf-v5.3.3/components/esptool_py/Kconfig.projbuild"
 source "F:/espide/Espressif/frameworks/esp-idf-v5.3.3/components/partition_table/Kconfig.projbuild"
-source "F:/code/ESP32/ESP32/tjpgd/main/Kconfig.projbuild"
+source "F:/code/ESP32/tjpgd/main/Kconfig.projbuild"

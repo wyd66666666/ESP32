@@ -1,4 +1,4 @@
-# Install script for directory: F:/code/ESP32/ESP32/tjpgd/managed_components/espressif__esp_jpeg
+# Install script for directory: F:/code/ESP32/tjpgd/managed_components/espressif__esp_jpeg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "F:/code/ESP32/ESP32/tjpgd/build/CMakeFiles/bootloader"
+			"file" : "F:/code/ESP32/tjpgd/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "F:/code/ESP32/ESP32/tjpgd/build/CMakeFiles/bootloader.rule"
+			"file" : "F:/code/ESP32/tjpgd/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "F:/code/ESP32/ESP32/tjpgd/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "F:/code/ESP32/tjpgd/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "F:/code/ESP32/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "F:/code/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "F:/code/ESP32/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "F:/code/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "F:/code/ESP32/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "F:/code/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "F:/code/ESP32/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "F:/code/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "F:/code/ESP32/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "F:/code/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "F:/code/ESP32/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "F:/code/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "F:/code/ESP32/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "F:/code/ESP32/tjpgd/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

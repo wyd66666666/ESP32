@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file F:/code/ESP32/ESP32/tjpgd/build/bootloader/bootloader.elf
+    add-symbol-file F:/code/ESP32/tjpgd/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file F:/code/ESP32/ESP32/tjpgd/build/lcd_tjpgd.elf
+file F:/code/ESP32/tjpgd/build/lcd_tjpgd.elf
