@@ -1,4 +1,4 @@
-/* * Data converted from F:/robot/xiaozhi/zdys/14_adc/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from F:/code/ESP32/ESP32/ADC/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

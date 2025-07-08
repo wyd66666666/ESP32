@@ -10,18 +10,18 @@ if(NOT EXISTS "F:/espide/Espressif/frameworks/esp-idf-v5.3.3/components/bootload
   file(MAKE_DIRECTORY "F:/espide/Espressif/frameworks/esp-idf-v5.3.3/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "F:/robot/xiaozhi/zdys/14_adc/build/bootloader"
-  "F:/robot/xiaozhi/zdys/14_adc/build/bootloader-prefix"
-  "F:/robot/xiaozhi/zdys/14_adc/build/bootloader-prefix/tmp"
-  "F:/robot/xiaozhi/zdys/14_adc/build/bootloader-prefix/src/bootloader-stamp"
-  "F:/robot/xiaozhi/zdys/14_adc/build/bootloader-prefix/src"
-  "F:/robot/xiaozhi/zdys/14_adc/build/bootloader-prefix/src/bootloader-stamp"
+  "F:/code/ESP32/ESP32/ADC/build/bootloader"
+  "F:/code/ESP32/ESP32/ADC/build/bootloader-prefix"
+  "F:/code/ESP32/ESP32/ADC/build/bootloader-prefix/tmp"
+  "F:/code/ESP32/ESP32/ADC/build/bootloader-prefix/src/bootloader-stamp"
+  "F:/code/ESP32/ESP32/ADC/build/bootloader-prefix/src"
+  "F:/code/ESP32/ESP32/ADC/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "F:/robot/xiaozhi/zdys/14_adc/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "F:/code/ESP32/ESP32/ADC/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "F:/robot/xiaozhi/zdys/14_adc/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "F:/code/ESP32/ESP32/ADC/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

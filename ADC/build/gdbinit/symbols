@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file F:/robot/xiaozhi/zdys/14_adc/build/bootloader/bootloader.elf
+    add-symbol-file F:/code/ESP32/ESP32/ADC/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file F:/robot/xiaozhi/zdys/14_adc/build/14_adc.elf
+file F:/code/ESP32/ESP32/ADC/build/ADC.elf

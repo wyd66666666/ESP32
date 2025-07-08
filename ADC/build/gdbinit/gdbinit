@@ -1,2 +1,2 @@
-source F:/robot/xiaozhi/zdys/14_adc/build/gdbinit/symbols
-source F:/robot/xiaozhi/zdys/14_adc/build/gdbinit/connect
+source F:/code/ESP32/ESP32/ADC/build/gdbinit/symbols
+source F:/code/ESP32/ESP32/ADC/build/gdbinit/connect

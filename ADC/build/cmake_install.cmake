@@ -1,8 +1,8 @@
-# Install script for directory: F:/robot/xiaozhi/zdys/14_adc
+# Install script for directory: F:/code/ESP32/ESP32/ADC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/14_adc")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ADC")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/robot/xiaozhi/zdys/14_adc/build/esp-idf/cmake_install.cmake")
+  include("F:/code/ESP32/ESP32/ADC/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "F:/robot/xiaozhi/zdys/14_adc/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "F:/code/ESP32/ESP32/ADC/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

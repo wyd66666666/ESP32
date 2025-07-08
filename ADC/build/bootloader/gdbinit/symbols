@@ -17,4 +17,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file F:/robot/xiaozhi/zdys/14_adc/build/bootloader/bootloader.elf
+file F:/code/ESP32/ESP32/ADC/build/bootloader/bootloader.elf
