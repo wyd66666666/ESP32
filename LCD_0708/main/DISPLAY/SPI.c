@@ -1,9 +1,17 @@
 #include "SPI.h"
+#include "driver/gpio.h"
+
+//设置SPI句柄
+esp_lcd_panel_io_handle_t io_handle = NULL;
 
 void vSPIInit(void)
 {
-    //设置SPI句柄
-    esp_lcd_panel_io_handle_t LCD_HOST = NULL;
+    gpio_config_t bk_gpio_config = {
+        .mode = GPIO_MODE_OUTPUT,
+        .pin_bit_mask = 1ULL << PIN_NUM_BK_LIGHT
+    };
+    // Initialize the GPIO of backlight
+    ESP_ERROR_CHECK(gpio_config(&bk_gpio_config));
 
     //初始化接口设备
     spi_bus_config_t buscfg = {
@@ -14,17 +22,15 @@ void vSPIInit(void)
     .quadhd_io_num = -1,                  // 必须设置且为 `-1`
     .max_transfer_sz = LCD_H_RES * 80 * sizeof(uint16_t), // 表示 SPI 单次传输允许的最大字节数上限，通常设为全屏大小即可
     };
-    spi_bus_initialize(SPI2_HOST, &buscfg, SPI_DMA_CH_AUTO);
+    spi_bus_initialize(LCD_HOST, &buscfg, SPI_DMA_CH_AUTO);
                                           // 第 1 个参数表示使用的 SPI 主机 ID，和后续创建接口设备时保持一致
                                           // 第 3 个参数表示使用的 DMA 通道号，默认设置为 `SPI_DMA_CH_AUTO` 即可
 
     //创建接口设备
-    esp_lcd_panel_io_handle_t io_handle = NULL;
     esp_lcd_panel_io_spi_config_t io_config = {
     .dc_gpio_num = PIN_NUM_DC,    // 连接 LCD DC（RS） 信号的 IO 编号，可以设为 `-1` 表示不使用
     .cs_gpio_num = PIN_NUM_CS,    // 连接 LCD CS 信号的 IO 编号，可以设为 `-1` 表示不使用
     .pclk_hz = LCD_PIXEL_CLOCK_HZ,    // SPI 的时钟频率（Hz），ESP 最高支持 80M（SPI_MASTER_FREQ_80M）
-                                              // 需根据 LCD 驱动 IC 的数据手册确定其最大值
     .lcd_cmd_bits = LCD_CMD_BITS,     // 单位 LCD 命令的比特数，应为 8 的整数倍
     .lcd_param_bits = LCD_PARAM_BITS, // 单位 LCD 参数的比特数，应为 8 的整数倍
     .spi_mode = 0,                            // SPI 模式（0-3），需根据 LCD 驱动 IC 的数据手册以及硬件的配置确定（如 IM[3:0]）

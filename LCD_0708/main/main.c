@@ -11,15 +11,21 @@
 #include "BUTTON.h"
 
 #include "SPI.h"  /* SPI相关头文件 */
+#include "LCD.h"  /* LCD相关头文件 */
 
 
 void app_main(void)
 {
     led_init();                 /* 初始化LED */
     vButtonInit();             /* 初始化按钮 */
+    vSPIInit();                /* 初始化SPI */
+    vLCDInit();                /* 初始化LCD */
+
+
     while(1)
     {
+
         //LED0_TOGGLE();
-        //vTaskDelay(pdMS_TO_TICKS(500));    /* 延时1s */
+        vTaskDelay(pdMS_TO_TICKS(1000));    /* 延时1s */
     }
 }

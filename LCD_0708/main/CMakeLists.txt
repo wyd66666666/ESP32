@@ -2,6 +2,7 @@ set(SOURCES "main.c"
             "LED/LED.c"
             "BUTTON/BUTTON.c"
             "DISPLAY/SPI.c"
+            "DISPLAY/LCD.c"
             )
 
 
