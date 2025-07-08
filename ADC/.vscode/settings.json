@@ -1,0 +1,28 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "F:/espide/Espressif/frameworks/esp-idf-v5.3.3/",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.toolsPathWin": "F:\\espide\\Espressif",
+  "files.autoGuessEncoding": true,
+  "idf.portWin": "COM4",
+  "idf.flashType": "UART",
+  "files.associations": {
+    "myiic.h": "c",
+    "xl9555.h": "c"
+  },
+  "idf.port": "/dev/ttyUSB0",
+  "idf.espIdfPath": "/root/esp/v5.4/esp-idf",
+  "idf.toolsPath": "/root/.espressif",
+  "idf.pythonInstallPath": "F:\\espide\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "F:\\espide\\Espressif\\tools\\esp-clang\\16.0.1-fe4f10a809\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=F:\\espide\\Espressif\\tools\\xtensa-esp-elf\\esp-13.2.0_20240530\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=f:\\robot\\xiaozhi\\zdys\\14_adc\\build"
+  ]
+}
