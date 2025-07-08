@@ -4,7 +4,10 @@ set(SOURCES "main.c"
             )
 
 
-set(INCLUDE_DIRS "." "LED" "BUTTON")
+set(INCLUDE_DIRS "." 
+                 "LED" "BUTTON"
+                 )
+
 
 idf_component_register(SRCS ${SOURCES}
                     INCLUDE_DIRS ${INCLUDE_DIRS})
